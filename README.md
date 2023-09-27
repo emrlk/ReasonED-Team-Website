@@ -2,7 +2,7 @@
 Title: Reason.io
 ---
 
-# reason.io
+# Reason.io
 The site can be accessed at
 <https://emrlk.github.io/reason.io/>
 
