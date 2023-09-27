@@ -9,9 +9,8 @@ The site can be accessed at
 
 
 # Other Pages
-
- - [Presentations (md)](presentations)
- - [About Us (md)](about_us)
+  - [Presentations (md)](presentations)
+  - [About Us (md)](about_us)
 
 
 # GitHub Pages Reference Materials
