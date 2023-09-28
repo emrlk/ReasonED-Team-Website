@@ -164,7 +164,7 @@ a:hover {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #541690;
+  background-color: #FF8D29;
   padding: 10px;
 }
 
