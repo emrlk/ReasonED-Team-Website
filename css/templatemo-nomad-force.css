@@ -248,7 +248,7 @@ strong {
   font-family: bootstrap-icons;
   display: inline-block;
   margin-left: 10px;
-  color: var(--white-colorr);
+  color: var(--primary-color);
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   -moz-transition: opacity 0.3s, -moz-transform 0.3s;
@@ -284,11 +284,11 @@ strong {
 .navbar-nav .nav-item.active .nav-link,
 .nav-link:focus,
 .nav-link:hover {
-  color: var(--dark-color);
+  color: var(--primary-color);
 }
 
 .nav-link:focus {
-  color: var(--p-color);
+  color: var(--primary-color);
 }
 
 .navbar-toggler {
