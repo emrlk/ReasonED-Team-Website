@@ -168,6 +168,14 @@ a:hover {
   padding: 10px;
 }
 
+.grid-item {
+  background-color: #EFEFEF;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
 /*---------------------------------------
   CUSTOM LINK
 -----------------------------------------*/
