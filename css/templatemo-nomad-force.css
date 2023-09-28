@@ -166,14 +166,16 @@ a:hover {
   grid-template-columns: auto auto auto;
   background-color: #FF8D29;
   padding: 10px;
+  grid-gap: 20px;
+
 }
 
 .grid-item {
   background-color: #541690;
-  border: 5px solid #FF8D29;
+  border: 15px solid #FF8D29;
   padding: 10px;
   font-size: 20px;
-  text-align: center;
+  text-align: right;
 }
 
 /*---------------------------------------
