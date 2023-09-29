@@ -5,7 +5,7 @@ Title: Reason.io
 # Reason.io
 
 The site can be accessed at
-<https://emrlk.github.io/reasonIO/>
+<https://emrlk.github.io/reasonED.io/>
 
 
 # Other Pages
