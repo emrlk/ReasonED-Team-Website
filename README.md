@@ -1,7 +1,3 @@
----
-Title: Reason.io
----
-
 # Reason.io
 
 The site can be accessed at
