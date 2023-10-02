@@ -360,6 +360,10 @@ strong {
   top: 8px;
 }
 
+.nav-item.dropdown {
+  margin-top: -10px; /* Used to align presentations tab */
+}
+
 /*---------------------------------------
   HERO
 -----------------------------------------*/
