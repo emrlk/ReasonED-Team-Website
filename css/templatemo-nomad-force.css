@@ -297,6 +297,10 @@ strong {
   color: var(--primary-color);
 }
 
+.navbar-nav .nav-link {
+  letter-spacing: -2px; 
+}
+
 .nav-link:focus {
   color: var(--primary-color);
 }
