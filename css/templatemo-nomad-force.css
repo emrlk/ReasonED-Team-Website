@@ -755,6 +755,23 @@ strong {
 }
 
 /*---------------------------------------
+  SLIDESHOW ELEMENTS
+-----------------------------------------*/
+.carousel-section {
+  margin-top: 60px; 
+}
+
+.carousel-inner {
+  border-radius: 10px; 
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/*---------------------------------------
   OTHER
 -----------------------------------------*/
 .image-space {
