@@ -297,6 +297,10 @@ strong {
   color: var(--primary-color);
 }
 
+.navbar-nav .nav-link {
+  letter-spacing: -2px; 
+}
+
 .nav-link:focus {
   color: var(--primary-color);
 }
@@ -748,5 +752,31 @@ strong {
   .news-detail-title {
     font-size: 22px;
   }
+}
+
+/*---------------------------------------
+  SLIDESHOW ELEMENTS
+-----------------------------------------*/
+.carousel-section {
+  margin-top: 60px; 
+}
+
+.carousel-inner {
+  border-radius: 10px; 
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/*---------------------------------------
+  OTHER
+-----------------------------------------*/
+.image-space {
+  width: 20px; 
+  height: 100%; 
+  display: inline-block;
 }
 
