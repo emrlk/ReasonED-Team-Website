@@ -34,7 +34,7 @@
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container">
-        <div class="d-flex align-items-left">
+        <div class="d-flex align-items-center">
           <a class="navbar-brand" href="index.html">
             <strong>ReasonED</strong>
           </a>
@@ -45,8 +45,9 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#background">Home</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="Dropdown"
+              aria-haspopup="true" aria-expanded="false">Home</a>
             </li>
             <!-- Dropdown Menu for About -->
             <li class="nav-item dropdown">
@@ -105,7 +106,7 @@
 
             <!-- Dropdown Menu for Labs -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="Dropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="#labs" id="Dropdown" role="button" data-bs-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 Labs
               </a>
@@ -119,10 +120,12 @@
 
             <!-- Glossary and References Tabs -->
             <li class="nav-item">
-              <a class="nav-link" href="#glossary">Glossary</a>
+              <a class="nav-link dropdown-toggle" href="#glossary" id="Dropdown"
+              aria-haspopup="true" aria-expanded="false">Glossary</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#references">References</a>
+              <a class="nav-link dropdown-toggle" id="Dropdown"
+              aria-haspopup="true" aria-expanded="false" href="#references">References</a>
             </li>
           </ul>
         </div>

@@ -376,7 +376,7 @@ strong {
 }
 
 .nav-item.dropdown {
-  margin-top: -10px; /* Used to align presentations tab */
+  margin-top: 0px; /* Used to align presentations tab */
 }
 
 /*---------------------------------------
