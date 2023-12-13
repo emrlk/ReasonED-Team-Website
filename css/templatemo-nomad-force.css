@@ -12,12 +12,12 @@ https://templatemo.com/tm-567-nomad-force
 :root {
   --white-color:                  #FF8D29;
   --primary-color:                #541690;
-  --section-bg-color:             #f9f9f9;
-  --dark-color:                   #ffffff;
-  --grey-color:                   #fcfeff;
+  --section-bg-color:             #ffffffe0;
+  --dark-color:                   #ffffffe0;
+  --grey-color:                   #ffffffe0;
   --text-secondary-white-color:   rgba(255, 255, 255, 0.98);
   --title-color:                  #565758;
-  --p-color:                      #ffffff;
+  --p-color:                      #ffffffe0;
 
   --body-font-family:           'Noto Sans JP', sans-serif;
 
@@ -103,8 +103,8 @@ h6 {
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-light);
-  letter-spacing: 0.5px;
+  font-weight: var(--font-weight-normal);
+  letter-spacing: 0px;
 }
 
 .text-secondary-white-color {
@@ -250,8 +250,8 @@ strong {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: 0px;
+  padding-left: 0px;
   
 }
 
