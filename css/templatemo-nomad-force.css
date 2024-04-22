@@ -10,31 +10,31 @@ https://templatemo.com/tm-567-nomad-force
   CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
-  --white-color:                  #FF8D29;
-  --primary-color:                #541690;
-  --section-bg-color:             #ffffffe0;
-  --dark-color:                   #ffffffe0;
-  --grey-color:                   #ffffffe0;
-  --text-secondary-white-color:   rgba(255, 255, 255, 0.98);
-  --title-color:                  #565758;
-  --p-color:                      #ffffffe0;
+  --white-color: #FF8D29;
+  --primary-color: #541690;
+  --section-bg-color: #ffffffe0;
+  --dark-color: #ffffffe0;
+  --grey-color: #ffffffe0;
+  --text-secondary-white-color: rgba(255, 255, 255, 0.98);
+  --title-color: #565758;
+  --p-color: #ffffffe0;
 
-  --body-font-family:           'Noto Sans JP', sans-serif;
+  --body-font-family: 'Noto Sans JP', sans-serif;
 
-  --h1-font-size:               72px;
-  --h2-font-size:               42px;
-  --h3-font-size:               36px;
-  --h4-font-size:               32px;
-  --h5-font-size:               24px;
-  --h6-font-size:               22px;
-  --p-font-size:                20px;
-  --copyright-text-font-size:   14px;
-  --custom-link-font-size:      12px;
+  --h1-font-size: 72px;
+  --h2-font-size: 42px;
+  --h3-font-size: 36px;
+  --h4-font-size: 32px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 20px;
+  --copyright-text-font-size: 14px;
+  --custom-link-font-size: 12px;
 
-  --font-weight-light:          300;
-  --font-weight-normal:         400;
-  --font-weight-bold:           700;
-  --font-weight-black:          900;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
 }
 
 body,
@@ -43,9 +43,9 @@ html {
 }
 
 body {
-    background: var(--white-color);
-    font-family: var(--body-font-family);
-    position: relative;
+  background: var(--white-color);
+  font-family: var(--body-font-family);
+  position: relative;
 }
 
 /*---------------------------------------
@@ -140,7 +140,8 @@ a:hover {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   height: 0;
   z-index: -100;
 }
@@ -177,7 +178,7 @@ a:hover {
   padding: 30px;
   font-size: 20px;
   text-align: left;
-  
+
 }
 
 ul li {
@@ -199,7 +200,7 @@ ul li {
   overflow: hidden;
   z-index: 1;
   display: inline-block;
-  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
 }
 
 .custom-link::after {
@@ -211,7 +212,7 @@ ul li {
   left: auto;
   right: 0;
   z-index: -1;
-  transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+  transition: width .6s cubic-bezier(.25, .8, .25, 1) 0s;
   background: currentColor;
 }
 
@@ -252,14 +253,14 @@ strong {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 0px;
   padding-left: 0px;
-  
+
 }
 
 .navbar-nav .nav-link::after {
   content: "\f140";
   font-family: bootstrap-icons;
   display: inline-block;
-  margin:10px;
+  margin: 10px;
   color: var(--primary-color);
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -268,7 +269,7 @@ strong {
   -webkit-transform: translateY(10px);
   -moz-transform: translateY(10px);
   transform: translateY(10px);
-  
+
 }
 
 .navbar-nav .nav-link:hover::after {
@@ -282,8 +283,8 @@ strong {
   color: var(--white-color);
   font-size: 24px;
   font-weight: var(--font-weight-bold);
-  position:relative;
-  
+  position: relative;
+
 }
 
 .navbar-nav .nav-link:hover::after,
@@ -302,7 +303,7 @@ strong {
 }
 
 .navbar-nav .nav-link {
-  letter-spacing: 0px; 
+  letter-spacing: 0px;
 }
 
 .nav-link:focus {
@@ -376,7 +377,8 @@ strong {
 }
 
 .nav-item.dropdown {
-  margin-top: 0px; /* Used to align presentations tab */
+  margin-top: 0px;
+  /* Used to align presentations tab */
 }
 
 /*---------------------------------------
@@ -464,7 +466,7 @@ strong {
 
 
 .social-share-link,
-.social-share-link + span {
+.social-share-link+span {
   color: rgba(255, 255, 255, 0.65);
 }
 
@@ -524,39 +526,78 @@ strong {
 
 
 
-@media screen and (max-width: 360px) {
-  h1 {
-    font-size: 32px;
+  @media screen and (max-width: 360px) {
+    h1 {
+      font-size: 32px;
+    }
+
+    .heroText p {
+      font-size: 14px;
+    }
   }
 
-  .heroText p {
-    font-size: 14px;
-  }
-}
-
-/*---------------------------------------
+  /*---------------------------------------
   SLIDESHOW ELEMENTS
 -----------------------------------------*/
-.carousel-section {
-  margin-top: 60px; 
-}
+  .carousel-section {
+    margin-top: 60px;
+  }
 
-.carousel-inner {
-  border-radius: 10px; 
-  overflow: hidden;
-}
+  .carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
-.carousel-item img {
-  width: 100%;
-  height: auto;
-}
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
 
 /*---------------------------------------
   OTHER
 -----------------------------------------*/
-.image-space {
-  width: 20px; 
-  height: 100%; 
-  display: inline-block;
+  .image-space {
+    width: 20px;
+    height: 100%;
+    display: inline-block;
+  }
 }
+
+/*---------------------------------------
+  LAYOUT FOR INDIVIDUAL LAB SUBMISSIONS
+-----------------------------------------*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #541690;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #2980b9;
+}
+
+.square-btn {
+  width: 150px;
+}
+
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .square-btn {
+    width: 100%;
+  }
 }
