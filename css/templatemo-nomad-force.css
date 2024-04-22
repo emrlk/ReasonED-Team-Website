@@ -553,7 +553,7 @@ strong {
     height: auto;
   }
 
-/*---------------------------------------
+  /*---------------------------------------
   OTHER
 -----------------------------------------*/
   .image-space {
@@ -575,8 +575,8 @@ strong {
 .download-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #541690;
-  color: white;
+  background-color: white;
+  color: #541690;
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
@@ -584,7 +584,8 @@ strong {
 }
 
 .download-btn:hover {
-  background-color: #2980b9;
+  background-color: #541690;
+  color: white
 }
 
 .square-btn {
